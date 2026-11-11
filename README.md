@@ -1,16 +1,107 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# The Curious Corner
 
-Currently, two official plugins are available:
+**The world is more interesting than you think.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Curious Corner is an editorial-style educational website built to explore the ideas, technologies, and systems that shape our everyday lives.
 
-## React Compiler
+From understanding how the internet works to exploring artificial intelligence, the goal is to make complex concepts simple, engaging, and enjoyable to learn.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About the Project
 
-## Expanding the ESLint configuration
+The Curious Corner is designed as a digital knowledge space where curiosity meets technology.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+It features easy-to-understand articles on topics related to the internet, artificial intelligence, computer science, and web development.
+
+## Features
+
+- Clean, minimal, editorial-style design
+- Responsive navigation for desktop and mobile
+- Featured article section on the homepage
+- Dedicated articles page
+- Individual pages for each article
+- Search functionality for articles
+- Category-based article filtering
+- About page introducing the platform
+- Reusable React components
+
+## Topics Covered
+
+- Internet
+- Artificial Intelligence
+- Web Development
+
+## Tech Stack
+
+- **React** – Building the user interface
+- **Vite** – Development environment and build tool
+- **Tailwind CSS** – Styling and responsive layouts
+- **React Router** – Client-side navigation
+- **JavaScript** – Application logic
+
+## Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/the-curious-corner.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd the-curious-corner
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the website.
+
+## Project Structure
+
+```text
+the-curious-corner/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── ArticleCard.jsx
+│   │   ├── ArticleSection.jsx
+│   │   └── Footer.jsx
+│   ├── data/
+│   │   └── articles.js
+│   ├── pages/
+│   │   ├── About.jsx
+│   │   ├── AllArticles.jsx
+│   │   └── ArticlePage.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Project Status
+
+Currently under development. More articles, features, and improvements will be added as the project evolves.
+
+## Author
+
+Created with curiosity and a love for technology.
+
+---
+
+**Stay curious. Keep learning.**
