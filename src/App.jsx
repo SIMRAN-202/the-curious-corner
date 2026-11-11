@@ -1,10 +1,10 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Navbar from "./components/navbar";
+import Hero from "./components/hero";
 import ArticleSection from "./components/ArticleSection";
-import Footer from "./components/Footer";
+import Footer from "./components/footer";
 
 import About from "./pages/About";
 import ArticlePage from "./pages/ArticlePage";
